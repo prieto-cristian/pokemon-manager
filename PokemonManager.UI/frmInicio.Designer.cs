@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnListar = new System.Windows.Forms.Button();
+            this.btnInicio = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.lblLogo = new System.Windows.Forms.Label();
@@ -43,8 +43,8 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.panelMenu.Controls.Add(this.btnListar);
             this.panelMenu.Controls.Add(this.btnAgregar);
+            this.panelMenu.Controls.Add(this.btnInicio);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -52,20 +52,20 @@
             this.panelMenu.Size = new System.Drawing.Size(1231, 100);
             this.panelMenu.TabIndex = 0;
             // 
-            // btnListar
+            // btnInicio
             // 
-            this.btnListar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnListar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnListar.FlatAppearance.BorderSize = 0;
-            this.btnListar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnListar.ForeColor = System.Drawing.Color.White;
-            this.btnListar.Location = new System.Drawing.Point(392, 0);
-            this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(105, 100);
-            this.btnListar.TabIndex = 2;
-            this.btnListar.Text = "Listar";
-            this.btnListar.UseVisualStyleBackColor = false;
-            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
+            this.btnInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnInicio.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnInicio.FlatAppearance.BorderSize = 0;
+            this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInicio.ForeColor = System.Drawing.Color.White;
+            this.btnInicio.Location = new System.Drawing.Point(287, 0);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Size = new System.Drawing.Size(105, 100);
+            this.btnInicio.TabIndex = 1;
+            this.btnInicio.Text = "Inicio";
+            this.btnInicio.UseVisualStyleBackColor = false;
+            this.btnInicio.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // btnAgregar
             // 
@@ -74,10 +74,10 @@
             this.btnAgregar.FlatAppearance.BorderSize = 0;
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(287, 0);
+            this.btnAgregar.Location = new System.Drawing.Point(392, 0);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(105, 100);
-            this.btnAgregar.TabIndex = 1;
+            this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -147,7 +147,7 @@
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label lblLogo;
-        private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.Button btnInicio;
     }
 }
 
