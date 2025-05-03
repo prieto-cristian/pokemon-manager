@@ -19,7 +19,7 @@ namespace PokemonManager.negocio
         public AccesoDatos()
         {
             conexion = new SqlConnection();
-            conexion.ConnectionString = "Server=.\\SQLEXPRESS; Data Source=POKEDEX_DB; Integrated Security=true;";
+            conexion.ConnectionString = "Data Source=.\\SQLEXPRESS; Database=POKEDEX_DB; Integrated Security=true;";
             comando = new SqlCommand();
             comando.Connection = conexion;
         }
