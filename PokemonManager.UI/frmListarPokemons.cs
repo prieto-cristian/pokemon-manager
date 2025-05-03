@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PokemonManager.dominio;
+using PokemonManager.negocio;
 
 namespace PokemonManager.UI
 {
@@ -15,6 +17,18 @@ namespace PokemonManager.UI
         public frmListarPokemons()
         {
             InitializeComponent();
+        }
+
+        private void frmListarPokemons_Load(object sender, EventArgs e)
+        {
+            ListarPokemon();
+        }
+
+        private void ListarPokemon() {
+            PokemonNegocio negocio = new PokemonNegocio();
+            List<Pokemon> listaPokemons = negocio.ListarPokemons();
+            dgvPokemons.DataSource = listaPokemons;
+            dgvPokemons.Columns["UrlImagen"].Visible = false;
         }
     }
 }

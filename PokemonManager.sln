@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManager.UI", "Pokemo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManager.dominio", "PokemonManager.dominio\PokemonManager.dominio.csproj", "{49D9790B-6F48-44B8-AA1C-63151BFD4E27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonManager.negocio", "PokemonManager.negocio\PokemonManager.negocio.csproj", "{FD81D9C5-54BD-4A18-B69D-E9395B3790EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{49D9790B-6F48-44B8-AA1C-63151BFD4E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D9790B-6F48-44B8-AA1C-63151BFD4E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D9790B-6F48-44B8-AA1C-63151BFD4E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD81D9C5-54BD-4A18-B69D-E9395B3790EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD81D9C5-54BD-4A18-B69D-E9395B3790EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD81D9C5-54BD-4A18-B69D-E9395B3790EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD81D9C5-54BD-4A18-B69D-E9395B3790EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

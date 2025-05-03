@@ -98,7 +98,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\PokemonManager.dominio\PokemonManager.dominio.csproj">
+      <Project>{49d9790b-6f48-44b8-aa1c-63151bfd4e27}</Project>
+      <Name>PokemonManager.dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PokemonManager.negocio\PokemonManager.negocio.csproj">
+      <Project>{fd81d9c5-54bd-4a18-b69d-e9395b3790eb}</Project>
+      <Name>PokemonManager.negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pokemon-logo.png" />
   </ItemGroup>

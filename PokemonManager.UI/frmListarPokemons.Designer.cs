@@ -63,6 +63,7 @@
             this.Controls.Add(this.dgvPokemons);
             this.Name = "frmListarPokemons";
             this.Text = "Lista Pokemons";
+            this.Load += new System.EventHandler(this.frmListarPokemons_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPokemons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPokemon)).EndInit();
             this.ResumeLayout(false);
